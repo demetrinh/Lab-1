@@ -1,4 +1,4 @@
-body, nav, ul, li, .button{
+body, nav, ul, li, .button, h1, .firstnav{
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
@@ -15,14 +15,16 @@ body, nav, ul, li, .button{
     color: #FFF;
     padding: 10px;
     width: 98.5vw;
+    display: block;
     border: none;
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 20px;
     font-size: 17px;
 }
-#firstnav {
+.firstnav {
     color: black;
+    text-decoration: none;
 }
 .main {
     color: #69696a;
@@ -30,10 +32,12 @@ body, nav, ul, li, .button{
     border-left: 3px #69696a solid;
     padding-left: 10px;
 }
-.header {
+.header1 {
     margin-left: 10px;
+    font-size: 16px;
+    padding: 5px;
 }
-li a {
+.link {
 text-decoration: none;
 color: #69696a;
 }
